@@ -10,10 +10,38 @@
             </set>
           </value>
         </entry>
+        <entry key="ConcurrentHashMapIterator">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/util/concurrent_hash_map.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Doc">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/course/invert_index_v0.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MapEntry">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/util/concurrent_hash_map.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SkipListValue">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/reverse_index/skiplist_reverse_index.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SkiplistReverseIndex">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/reverse_index/skiplist_reverse_index.go" />
             </set>
           </value>
         </entry>
@@ -33,13 +61,56 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/course/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741171963313" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/reverse_index.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741175969531" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/reverse_index/reverse_index.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741177990593" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/reverse_index/skiplist_reverse_index.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741177990430" />
+              <option name="schema">
+                <list>
+                  <option value="SkiplistReverseIndex" />
+                  <option value="SkipListValue" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/types/doc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741177990529" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/util/concurrent_hash_map.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741165823285" />
+              <option name="lastModified" value="1741174452529" />
               <option name="schema">
                 <list>
                   <option value="ConcurrentHashMap" />
+                  <option value="MapEntry" />
+                  <option value="ConcurrentHashMapIterator" />
                 </list>
               </option>
             </ScannedPath>
@@ -48,7 +119,7 @@
         <entry key="file://$PROJECT_DIR$/util/test/concurrent_hash_map_test.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741166306159" />
+              <option name="lastModified" value="1741166653379" />
             </ScannedPath>
           </value>
         </entry>
@@ -57,7 +128,11 @@
     <option name="tableStructMapping">
       <map>
         <entry key="concurrent_hash_map" value="ConcurrentHashMap" />
+        <entry key="concurrent_hash_map_iterator" value="ConcurrentHashMapIterator" />
         <entry key="doc" value="Doc" />
+        <entry key="map_entry" value="MapEntry" />
+        <entry key="skip_list_value" value="SkipListValue" />
+        <entry key="skiplist_reverse_index" value="SkiplistReverseIndex" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1741147541512" />

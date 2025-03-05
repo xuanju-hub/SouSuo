@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package types;
+
+message Keyword {
+  string Field = 1;
+  string Word = 2;
+}
+
+message Document {
+  string Id = 1; //业务使用的唯一ID，不是索引ID
+  uint64 IntId = 2; // 文档id
+  uint64 BitsFeature = 3; // 64位特征向量
+  repeated Keyword Keywords = 4; // 倒排索引的key
+  bytes Bytes = 5; // 业务实例序列化的结果
+}
