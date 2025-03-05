@@ -3,6 +3,13 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="ConcurrentHashMap">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/util/concurrent_hash_map.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Doc">
           <value>
             <set>
@@ -14,13 +21,6 @@
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/course/invert_index.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1740113294889" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/course/invert_index_v0.go">
           <value>
             <ScannedPath>
@@ -33,10 +33,22 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/course/test/invert_index_v0_test.go">
+        <entry key="file://$PROJECT_DIR$/util/concurrent_hash_map.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1740114396574" />
+              <option name="lastModified" value="1741165823285" />
+              <option name="schema">
+                <list>
+                  <option value="ConcurrentHashMap" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/util/test/concurrent_hash_map_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741166306159" />
             </ScannedPath>
           </value>
         </entry>
@@ -44,9 +56,10 @@
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="concurrent_hash_map" value="ConcurrentHashMap" />
         <entry key="doc" value="Doc" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1740112908090" />
+    <option name="lastTimeChecked" value="1741147541512" />
   </component>
 </project>
