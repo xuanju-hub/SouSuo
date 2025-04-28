@@ -99,3 +99,4 @@ func (indexer *SkiplistReverseIndex) Delete(IntId uint64, keyword *types.Keyword
 		list.Remove(IntId)
 	}
 }
+

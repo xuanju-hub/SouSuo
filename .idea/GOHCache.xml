@@ -24,6 +24,20 @@
             </set>
           </value>
         </entry>
+        <entry key="Document">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/types/doc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Keyword">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/types/doc.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="MapEntry">
           <value>
             <set>
@@ -68,24 +82,24 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/internal/reverse_index.go">
+        <entry key="file://$PROJECT_DIR$/course/rate_limit.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741175969531" />
+              <option name="lastModified" value="1742283430964" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/internal/reverse_index/reverse_index.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741177990593" />
+              <option name="lastModified" value="1741180027080" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/internal/reverse_index/skiplist_reverse_index.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741177990430" />
+              <option name="lastModified" value="1742207551242" />
               <option name="schema">
                 <list>
                   <option value="SkiplistReverseIndex" />
@@ -99,6 +113,19 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1741177990529" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/types/doc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1741174957104" />
+              <option name="schema">
+                <list>
+                  <option value="Keyword" />
+                  <option value="Document" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -116,13 +143,6 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/util/test/concurrent_hash_map_test.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741166653379" />
-            </ScannedPath>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
@@ -130,11 +150,13 @@
         <entry key="concurrent_hash_map" value="ConcurrentHashMap" />
         <entry key="concurrent_hash_map_iterator" value="ConcurrentHashMapIterator" />
         <entry key="doc" value="Doc" />
+        <entry key="document" value="Document" />
+        <entry key="keyword" value="Keyword" />
         <entry key="map_entry" value="MapEntry" />
         <entry key="skip_list_value" value="SkipListValue" />
         <entry key="skiplist_reverse_index" value="SkiplistReverseIndex" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1741147541512" />
+    <option name="lastTimeChecked" value="1745820286681" />
   </component>
 </project>
